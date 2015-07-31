@@ -11,8 +11,6 @@ $vift = new Vift($order_id);
 $vift->name = 'Customer Name';
 $vift->email = 'Customer Email';
 
-$vift->price = 2.95; //Whatever you charged the customer for Vift.
-
 var_dump($vift->post());
 ```
 
@@ -28,6 +26,7 @@ var_dump($vift->get());
 $vift = new Vift($order_id);
 $vift->carrier = 'USPS';
 $vift->tracking_number = '1234567';
+$vift->price = 2.95; //Whatever you charged the customer for Vift.
 
 var_dump($vift->put());
 ```
