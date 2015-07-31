@@ -29,7 +29,7 @@ $vift = new Vift($order_id);
 $vift->carrier = 'USPS';
 $vift->tracking_number = '1234567';
 
-var_dump($vift->get());
+var_dump($vift->put());
 ```
 
 ### Delete
